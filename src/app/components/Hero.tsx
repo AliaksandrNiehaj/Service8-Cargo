@@ -30,7 +30,7 @@ export function Hero() {
       <div className="container mx-auto px-4 py-12 sm:py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 sm:space-y-8">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-extrabold">
               {t('hero.title')}
             </h1>
             
