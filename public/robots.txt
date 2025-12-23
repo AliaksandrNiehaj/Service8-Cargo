@@ -1,0 +1,9 @@
+# robots.txt для Service8
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://service8cargo.vercel.app/sitemap.xml
+
+Crawl-delay: 1
