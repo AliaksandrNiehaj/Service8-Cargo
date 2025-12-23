@@ -17,7 +17,6 @@ export function Hero() {
     const contactSection = document.getElementById('contact');
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: 'smooth' });
-      // Отправляем событие для открытия формы
       setTimeout(() => {
         window.dispatchEvent(new CustomEvent('openRequestForm'));
       }, 500);
