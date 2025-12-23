@@ -1,13 +1,62 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pl">
+  
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service8 - Transport and Moving Services in Poland</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Service8 - Usługi transportowe i przeprowadzkowe w Polsce</title>
+    <meta name="description" content="Profesjonalne usługi transportowe i przeprowadzkowe w całej Polsce. Transport towarów, przeprowadzki mieszkaniowe i biurowe. Dostępni 24/7. Konkurencyjne ceny od 140 PLN/h." />
+    <meta name="keywords" content="transport, przeprowadzki, usługi transportowe, przeprowadzki Warszawa, transport Polska, cargo, przewóz towarów, przeprowadzki międzymiastowe, transport ekspresowy" />
+    <meta name="author" content="Service8" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://service8cargo.vercel.app/" />
+    <meta property="og:title" content="Service8 - Usługi transportowe i przeprowadzkowe w Polsce" />
+    <meta property="og:description" content="Profesjonalne usługi transportowe i przeprowadzkowe w całej Polsce. Transport towarów, przeprowadzki mieszkaniowe i biurowe. Dostępni 24/7." />
+    <meta property="og:image" content="https://service8cargo.vercel.app/og-image.jpg" />
+    <meta property="og:locale" content="pl_PL" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://service8cargo.vercel.app/" />
+    <meta name="twitter:title" content="Service8 - Usługi transportowe w Polsce" />
+    <meta name="twitter:description" content="Profesjonalne usługi transportowe i przeprowadzkowe w całej Polsce. Dostępni 24/7." />
+    <meta name="twitter:image" content="https://service8cargo.vercel.app/og-image.jpg" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Service8",
+      "description": "Usługi transportowe i przeprowadzkowe w Polsce",
+      "url": "https://service8cargo.vercel.app",
+      "telephone": "+48-500-554-818",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Ryżowa",
+        "addressLocality": "Warszawa",
+        "postalCode": "02-495",
+        "addressCountry": "PL"
+      },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "priceRange": "140 PLN - 250 PLN",
+      "sameAs": [
+        "https://facebook.com/yourpage",
+        "https://instagram.com/yourpage"
+      ]
+    }
+    </script>
   </head>
+  
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+
 </html>
