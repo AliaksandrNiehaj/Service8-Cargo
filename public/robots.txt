@@ -6,4 +6,5 @@ Allow: /
 # Sitemap
 Sitemap: https://service8cargo.vercel.app/sitemap.xml
 
+# Crawl-delay (optionally)
 Crawl-delay: 1
