@@ -17,7 +17,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.calculator': 'Calculator',
     
     // Hero
-    'hero.title': 'Transport and Moving Services across Poland',
+    'hero.title': 'Transport and Moving Services in Poland',
     'hero.description': 'Fast and reliable delivery of cargo of any size. Professional team, apartment and office relocations, intercity transport',
     'hero.cta.call': 'Call us',
     'hero.cta.calculate': 'Calculate cost',
@@ -136,7 +136,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.calculator': 'Калькулятор',
     
     // Hero
-    'hero.title': 'Транспортные и грузоперевозочные услуги по Польше',
+    'hero.title': 'Транспортные услуги и грузоперевозки по Польше',
     'hero.description': 'Быстрая и надежная доставка грузов любого размера. Профессиональная команда, квартирные и офисные переезды, междугородние перевозки',
     'hero.cta.call': 'Позвонить',
     'hero.cta.calculate': 'Рассчитать стоимость',
@@ -255,7 +255,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.calculator': 'Калькулятор',
     
     // Hero
-    'hero.title': 'Транспортні та вантажні послуги по Польщі',
+    'hero.title': 'Транспортні послуги та перевезення по Польщі',
     'hero.description': 'Швидка та надійна доставка вантажів будь-якого розміру. Професійна команда, квартирні та офісні переїзди, міжміські перевезення',
     'hero.cta.call': 'Зателефонувати',
     'hero.cta.calculate': 'Розрахувати вартість',
